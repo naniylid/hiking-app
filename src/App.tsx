@@ -1,4 +1,4 @@
-import React from 'react';
+import './styles.module.css';
 
 const App = () => {
   return <div>App</div>;
