@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+@import '../../styles/colors.scss';
+.Mainbutton {
+  width: 17.968vw;
+  height: 3.906vw;
+  background-color: #e5f5eb;
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 1.562vw;
+
+  &:hover {
+    color: $textColor;
+    border-color: $textColor;
+  }
+}
+
+@media (max-width: 500px) {
+  .Mainbutton {
+    margin: 15vw 29vw;
+    text-align: center;
+    width: 40.5vw;
+    height: 8vw;
+    border-radius: 4vw;
+    font-size: 3vw;
+  }
+}

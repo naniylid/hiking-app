@@ -1,0 +1,63 @@
+@import '../../styles/colors.scss';
+
+.root {
+  margin: 0;
+
+  .left {
+    margin-left: 7.747vw;
+    margin-top: 10.02vw;
+    position: absolute;
+
+    h1 {
+      width: 55.273vw;
+      padding-bottom: 1.432vw;
+      font-size: 4.166vw;
+      font-weight: 700;
+      line-height: 4.166vw;
+    }
+
+    p {
+      padding-bottom: 1.432vw;
+      color: $textColor;
+      font-size: 2.083vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2.083vw;
+    }
+  }
+
+  img {
+    margin: 13.611vw 0 0 47.187vw;
+    position: absolute;
+    width: 44.986vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .root {
+    img {
+      display: flex;
+      z-index: 1;
+      margin: 7vw;
+      width: 90.283vw;
+    }
+
+    .left {
+      margin-top: 65vw;
+      margin-left: 0;
+
+      h1 {
+        margin: 5vw;
+        width: 90vw;
+        font-size: 7vw;
+        line-height: 7vw;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        font-size: 5vw;
+      }
+    }
+  }
+}
