@@ -1,62 +1,68 @@
 @import '../../styles/colors.scss';
 
-.root {
+header {
   margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  grid-template-rows: 1fr repeat(3, 2fr) 1fr;
 
   .left {
-    margin-left: 7.747vw;
-    margin-top: 10.02vw;
-    position: absolute;
+    grid-area: 2 / 2 / 4 / 3;
+    display: inline;
+    z-index: 1;
 
     h1 {
-      width: 55.273vw;
-      padding-bottom: 1.432vw;
-      font-size: 4.166vw;
+      width: clamp(200px, 55.3vw, 849px);
+      font-size: clamp(30px, 4.2vw, 64px);
       font-weight: 700;
-      line-height: 4.166vw;
+      line-height: clamp(30px, 4.2vw, 64px);
+      padding-bottom: 20px;
     }
 
     p {
-      padding-bottom: 1.432vw;
       color: $textColor;
-      font-size: 2.083vw;
+      font-size: clamp(15px, 2vw, 32px);
       font-style: normal;
       font-weight: 400;
-      line-height: 2.083vw;
+      line-height: clamp(15px, 2vw, 32px);
+      padding-bottom: 20px;
     }
   }
 
   img {
-    margin: 13.611vw 0 0 47.187vw;
-    position: absolute;
-    width: 44.986vw;
+    grid-area: 2 / 3 / 5 / 5;
+    margin-left: calc(10% - 240px);
+    margin-top: calc(20% - 1vh);
+    width: clamp(200px, 45vw, 691px);
   }
 }
 
 @media (max-width: 500px) {
-  .root {
+  header {
+    display: inline;
+
     img {
-      display: flex;
+      width: min(100%, 373px);
       z-index: 1;
-      margin: 7vw;
-      width: 90.283vw;
+      margin-left: calc(20% - 65px);
+      padding-bottom: 30px;
     }
 
     .left {
-      margin-top: 65vw;
       margin-left: 0;
+      display: inline;
 
       h1 {
-        margin: 5vw;
-        width: 90vw;
-        font-size: 7vw;
-        line-height: 7vw;
+        margin-left: calc(20% - 60px);
+        width: clamp(200px, 90vw, 400px);
+        font-size: clamp(20px, 7vw, 40px);
+        line-height: clamp(20px, 7vw, 40px);
         text-align: center;
       }
 
       p {
         text-align: center;
-        font-size: 5vw;
+        font-size: clamp(15px, 5vw, 30px);
       }
     }
   }
