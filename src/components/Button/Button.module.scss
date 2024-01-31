@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+.Mainbutton {
+  width: min(50%, 276px);
+  height: min(50%, 60px);
+  background-color: #e5f5eb;
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: clamp(10px, 2vw, 24px);
+
+  &:hover {
+    color: $textColor;
+    border-color: $textColor;
+  }
+}
+
+@media (max-width: 500px) {
+  .Mainbutton {
+    margin-top: calc(30% - 80px);
+    margin-left: calc(70% - 150px);
+    text-align: center;
+    width: min(50%, 150px);
+    height: min(50%, 80px);
+    border-radius: 15px;
+    font-size: 12px;
+  }
+}
