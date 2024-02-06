@@ -2,15 +2,15 @@
 .Mainbutton {
   width: min(50%, 276px);
   height: min(50%, 60px);
-  background-color: #e5f5eb;
-  color: #000;
+  background-color: $lightColor;
+  color: $textColor;
 
   font-family: Montserrat;
   font-size: clamp(10px, 2vw, 24px);
 
   &:hover {
-    color: $textColor;
-    border-color: $textColor;
+    color: $textColor !important;
+    border-color: $textColor !important;
   }
 }
 
