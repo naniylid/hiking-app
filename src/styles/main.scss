@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
 @import '../components/Button/Button.module.scss';
 @import '../components/Navigation/Nav.module.scss';
+@import '../components/СhoosePlan/СhoosePlan.module.scss';
 @import './colors.scss';
 
 body,
@@ -8,5 +9,5 @@ a {
   margin: 0;
   font-family: Montserrat;
   color: #0a1a10;
-  overflow: hidden;
+  overflow-x: hidden;
 }

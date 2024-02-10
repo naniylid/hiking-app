@@ -31,8 +31,8 @@ header {
 
   img {
     grid-area: 2 / 3 / 5 / 5;
-    margin-left: calc(10% - 240px);
-    margin-top: calc(20% - 1vh);
+    margin-top: 70px;
+    margin-left: clamp(-210px, -10vw, 20px);
     width: clamp(200px, 45vw, 691px);
   }
 }
