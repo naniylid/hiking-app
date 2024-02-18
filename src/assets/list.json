@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "title": "Clothes",
+    "image": "https://cdn-icons-png.flaticon.com/512/130/130302.png",
+    "items": [
+      "Membrane or Windstopper",
+      "Pants, Shorts",
+      "Thermal Underwear",
+      "Fleece Vest (Fleece)",
+      "T-shirts and Trekking Shirts",
+      "Raincoat",
+      "Panama / Sun Buff",
+      "Protective Gloves",
+      "Underwear",
+      "Trekking Boots or Sneakers",
+      "Trekking Sandals or Camp Slippers",
+      "Socks"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Documents",
+    "image": "https://cdn-icons-png.flaticon.com/512/9746/9746150.png",
+    "items": [
+      "Passport, Visa",
+      "Tickets",
+      "Copies of Passport, Tickets, etc.",
+      "Boarding Pass",
+      "Driver's License",
+      "Health Insurance Card",
+      "List of Medications, Letter from Prescriber",
+      "Travel Insurance",
+      "Student Card"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Travel aids",
+    "image": "https://cdn-icons-png.flaticon.com/512/7785/7785343.png",
+    "items": [
+      "Suitcases, Backpack",
+      "Itinerary",
+      "Maps and Directions",
+      "Language Guide",
+      "Travel Guide",
+      "Travel Pillow, Sleeping Mask, Earplugs",
+      "Travel Locks",
+      "Luggage Tags",
+      "Pens and Paper",
+      "Snacks, Drinks",
+      "Small Pocket Knife (not in carry-on!)",
+      "Rope, Expandable Clothesline",
+      "Flashlight"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Health",
+    "image": "https://cdn-icons-png.flaticon.com/512/862/862032.png",
+    "items": [
+      "Medications, Pain Reliever",
+      "First Aid Kit",
+      "Insect Repellent",
+      "Oral Rehydration Solution (ORS)",
+      "Mosquito Net",
+      "Vitamins",
+      "Hand Sanitizer/Disinfectant"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "To Do",
+    "image": "https://cdn-icons-png.flaticon.com/512/1950/1950715.png",
+    "items": []
+  }
+]
